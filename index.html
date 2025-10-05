@@ -240,6 +240,9 @@
           THU CHI ĐOÀN PHÍ
         </button>
 
+        <button onclick="openViewer('viewerthem1')" class="block w-full text-left bg-blue-700 text-white px-4 py-2 rounded-md">
+          SƠ ĐỒ VỊ TRÍ NGỒI
+        </button>
 
       </div>
     </div>
@@ -332,6 +335,18 @@
     </div>
     <div class="flex flex-col items-center">
       <img src="vbdh/thuchi.jpg" class="w-full max-w-4xl mb-4" alt="Trang 1">
+    </div>
+  </div>
+
+  <!-- Viewer them1 -->
+<div id="viewerthem1" class="hidden w-full h-screen flex flex-col bg-blue-900 fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex justify-between items-center bg-blue-800 text-white px-4 py-2 sticky top-0 z-10">
+      <button onclick="goBack('viewerthem1')" class="bg-blue-600 px-3 py-1 rounded-md">← Quay lại</button>
+      <h2 class="font-bold text-lg">SƠ ĐỒ VỊ TRÍ NGỒI</h2>
+      <button onclick="downloadZip('viewerthem')" class="bg-green-600 px-3 py-1 rounded-md">⬇ Tải xuống</button>
+    </div>
+    <div class="flex flex-col items-center">
+      <img src="sodo.jpg" class="w-full max-w-4xl mb-4" alt="Trang 1">
     </div>
   </div>
 
